@@ -14,8 +14,27 @@ More than 12 million words divided by the number of letters and the type of lett
 تكتر من 8 مليون كلمة
 الكلمات مقسمة على جداول على حسب الحرف و طول الكلمة
 
+## Download
+##### DB Browser for SQLite 
+https://sqlitebrowser.org/dl/
 
-#### Java Code Exemple :
+##### Extract <strong> baseDonne.rar </strong> and choose the destination folder ==> baseDonne.db
+##### Run SQLiteDatabaseBrowser and Open database from <strong> baseDonne.db </strong>
+
+<div align="center">
+	<h1>
+		ScreenShots from SQLite Database 
+	</h1>
+	<img src="ScreenShots/screen_1.png" width="90%" title="hover text">
+	<img src="ScreenShots/Untitled-2.png" width="90%" title="hover text">
+	<img src="ScreenShots/Untitled-3.png" width="90%" title="hover text">
+</div>
+
+<br>
+<br>
+<br>
+
+## Java Code Exemple :
 
 ```sh
 
