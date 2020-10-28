@@ -1,8 +1,13 @@
 
+# Arabic words
+
 ## All Arabic words from 3 to 9 letters
 
-More than 8 million words divided by the number of letters and the type of letter for easy finding
+More than 12 million words divided by the number of letters and the type of letter for easy finding
 
+> قائمة ب 1272533 كلمة عربية تم جمعها من أكثر من 650 كتابا قديما وحديثا  
+> This project is a fork of 
+>[ OSINTAI / Arabic_Words](https://github.com/OSINTAI/Arabic_Words)
 
 
 جميع كلمات اللغة العربية من 3 احرف ل 9 احرف
@@ -13,15 +18,25 @@ More than 8 million words divided by the number of letters and the type of lette
 #### Java Code Exemple :
 
 ```sh
-public static boolean ChercherLesMots(String mots) throws  SQLiteGdxException{
-		String nBase = NomeBaseDone(mots.charAt(0), mots.length());
-	    if(dbHandler.rawQuery("SELECT MOT FROM `"+nBase+"` WHERE `mot` LIKE '"+mots+"' ").next())
+
+/** Determine if the word exists in the Arabic language.
+* @param mot The word
+* @return {@code true} if the word is present; {@code false} If the word does not exist. */
+public static boolean ChercherLesMots(String mot) throws  SQLiteGdxException{
+		String nBase = NomeTableDone(mot.charAt(0), mot.length());
+	    if(dbHandler.rawQuery("SELECT MOT FROM `"+nBase+"` WHERE `mot` LIKE '"+mot+"' ").next())
 	    	return true;
 	    else
         return false;
 }
-public static String NomeBaseDone(char C, int L) {
-		switch (C) {
+
+
+/** Find the table for a word that begins with the letter char and the length.
+* @param char The first letter of the word
+* @param length The Word length
+* @return The name of Table Who contains the word */
+public static String NomeTableDone(char char, int length) {
+		switch (char) {
 		case 'ب':
 			return "BAA" + L;
 		case 'ت':
