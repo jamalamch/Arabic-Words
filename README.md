@@ -38,60 +38,60 @@ public static boolean ChercherLesMots(String mot) throws  SQLiteGdxException{
 public static String NomeTableDone(char char, int length) {
 		switch (char) {
 		case 'ب':
-			return "BAA" + L;
+			return "BAA" + length;
 		case 'ت':
-			return "TAA" + L;
+			return "TAA" + length;
 		case 'ث':
-			return "LAM" + L;
+			return "LAM" + length;
 		case 'ج':
-			return "GEM" + L;
+			return "GEM" + length;
 		case 'ح':
-			return "HAA" + L;
+			return "HAA" + length;
 		case 'خ':
-			return "KHA" + L;
+			return "KHA" + length;
 		case 'د':
-			return "DAL" + L;
+			return "DAL" + length;
 		case 'ذ':
-			return "ZAL" + L;
+			return "ZAL" + length;
 		case 'ر':
-			return "RAA" + L;
+			return "RAA" + length;
 		case 'ز':
-			return "ZAY" + L;
+			return "ZAY" + length;
 		case 'س':
-			return "SEN" + L;
+			return "SEN" + length;
 		case 'ش':
-			return "SHN" + L;
+			return "SHN" + length;
 		case 'ص':
-			return "SAD" + L;
+			return "SAD" + length;
 		case 'ض':
-			return "DAD" + L;
+			return "DAD" + length;
 		case 'ط':
-			return "TAA" + L;
+			return "TAA" + length;
 		case 'ظ':
-			return "DAD" + L;
+			return "DAD" + length;
 		case 'ع':
-			return "AIN" + L;
+			return "AIN" + length;
 		case 'غ':
-			return "GHN" + L;
+			return "GHN" + length;
 		case 'ف':
-			return "FAA" + L;
+			return "FAA" + length;
 		case 'ق':
-			return "QAF" + L;
+			return "QAF" + length;
 		case 'ك':
-			return "KAF" + L;
+			return "KAF" + length;
 		case 'ل':
-			return "LAM" + L;
+			return "LAM" + length;
 		case 'م':
-			return "MEM" + L;
+			return "MEM" + length;
 		case 'ن':
-			return "NON" + L;
+			return "NON" + length;
 		case 'ه':
-			return "HAA" + L;
+			return "HAA" + length;
 		case 'و':
-			return "WAW" + L;
+			return "WAW" + length;
 		case 'ي':
-			return "YAA" + L;
+			return "YAA" + length;
 		}
-		return "ALF" + L;
+		return "ALF" + length;
 }
 ```
