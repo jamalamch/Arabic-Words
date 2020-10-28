@@ -5,10 +5,21 @@
 
 More than 12 million words divided by the number of letters and the type of letter for easy finding
 
-> قائمة ب 1272533 كلمة عربية تم جمعها من أكثر من 650 كتابا قديما وحديثا  
-> This project is a fork of 
->[ OSINTAI / Arabic_Words](https://github.com/OSINTAI/Arabic_Words)
 
+>This project is a fork of :
+>
+>> قائمة ب 1272533 كلمة عربية تم جمعها من أكثر من 650 كتابا قديما وحديثا   
+>> [OSINTAI / Arabic_Words](https://github.com/OSINTAI/Arabic_Words)
+>
+> </br>
+>
+>> <center>📖المعاجم العربية - Arabic dictionaries📖 </center>
+>> جم المستودع: 204 ميغا
+
+>> [ OSINTAI /Arabic-Dictionaries ](https://github.com/OSINTAI/Arabic-Dictionaries)
+>
+><br>
+___
 
 جميع كلمات اللغة العربية من 3 احرف ل 9 احرف
 تكتر من 8 مليون كلمة
